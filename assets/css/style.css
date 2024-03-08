@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url(./root.css);
+
+* {
+    padding: 0;
+    scroll-behavior: smooth;
+    margin: 0;
+    list-style: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+/* -----------------------font-family-start */
+.font-Rubik{
+    font-family: "Rubik", sans-serif;
+}
+/* -----------------------max-width-start */
+.max-w-565{
+    max-width: 565px;
+}
+.max-w-766{
+    max-width: 766px;
+}
+.max-w-1140 {
+    max-width: 1140px !important;
+}
+
+
+/* -----------------------padding-start */
+.pt-14{
+    padding-top: 14px;
+}
+.pt-40{
+    padding-top: 40px;
+}
+.pt-149{
+    padding-top: 149px;
+}
+
+/* -----------------------gap-start */
+.gap-17{
+    gap: 17px;
+}
+.gap-41{
+    gap: 41px;
+}
+.gap-194{
+    gap: 194px;
+}
+
+/* -----------------------btn-start */
+.btn-1{
+    padding: 17px 38px;
+    background-color: var(--orange);
+    border: 1px solid transparent;
+    border-radius: 41px !important;
+}
+.btn-1:hover{
+    background-color: var(--white);
+    color: var(--orange) !important;
+    border: 1px solid var(--orange);
+}
+.btn-2{
+    background-color: var(--white);
+    color: var(--orange) !important;
+    border: 1px solid var(--orange);
+    padding: 17px 38px;
+    border-radius: 41px !important;
+}
+.btn-2:hover{
+    background-color: var(--orange);
+    color: var(--white) !important;
+}
+
+
+
+
+/* -----------------------gap-start */
+
+
+
+
+
+
+.duration-300{
+    transition: all 300ms linear;
+    
+}
+.nav-link:hover{
+    color: var(--orange );
+}
+
+
+
+
+
+
+
+
+
+
+.opacity-7{
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+.group{
+    top: 10%;
+    left: 1%;
+
+}
+.Elegant{
+    top: 5%;
+    right: 10%;
+
+}
+.Elegant2{
+    bottom: 5%;
+    left: 10%;
+
+}
+.Elegant3{
+    bottom: 5%;
+    right: 10%;
+
+}
+
+    
+
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+
+
+
+.clip{
+    top: 18%;
+    left: 34%;
+}
+
+.group7{
+    top: 60%;
+    left: 0;
+}
+
+.group5{
+    bottom: 10%;
+    right: 40%;
+}
+.group8{
+    right: 2%;
+    top: 50%;
+
+}
+
+
+
+
+
+
+
+
+.hamburger {
+    display: none;
+}
+
+
+
+
+
+
+ @media(max-width: 992px) {
+    .menulist {
+        position: fixed;
+        right: -100%;
+        top: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--white);
+        width: 100%;
+        height: 100vh;
+        gap: 32px;
+        z-index: 5;
+        transition: all 300ms ease-in-out;
+    }
+
+    .menulist ul {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .menulist.nav-active {
+        right: 0;
+    }
+
+    .hamburger {
+        display: block;
+        z-index: 6;
+    }
+
+    .hamburger.nav-active .bar2 {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+
+    .hamburger.nav-active .bar1 {
+        transform: translateY(9px) rotate(45deg);
+    }
+
+    .hamburger.nav-active .bar3 {
+        transform: translateY(-9px) rotate(-45deg);
+    }
+
+    .bar1,
+    .bar2,
+    .bar3 {
+        display: block;
+        width: 29px;
+        height: 3px;
+        margin: 6px auto;
+        transition: all 0.3s ease-in-out;
+        background-color: var(--orange);
+    }
+} 
+
+@media (max-width: 575px) {
+            
+
+}
+@media (min-width: 575px) {    
+   
+
+}
+@media (min-width: 768px) {
+ 
+    
+}
+@media (min-width: 992px) {
+    
+
+}
+@media (max-width: 1200px) {
+    
+
+}
+@media (max-width: 1200px) {
+ 
+    
+}
+@media (min-width:1200px) {
+    
+
+}
