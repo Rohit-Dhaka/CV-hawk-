@@ -65,6 +65,9 @@
 .pt-95{
     padding-top: 95px;
 }
+.pt-100{
+    padding-top: 100px;
+}
 .pt-149{
     padding-top: 149px;
 }
@@ -76,6 +79,9 @@
 }
 .pb-40{
     padding-bottom: 40px;
+}
+.pb-107{
+    padding-bottom: 107px;
 }
 .pb-160{
     padding-bottom: 160px;
@@ -137,6 +143,9 @@
     color: var(--orange );
 }
 
+.mt-40{
+    margin-top: 40px;
+}
 
 
 
@@ -162,6 +171,9 @@
 }
 .opacity-8{
     opacity: 0.8;
+}
+.opacity-9{
+    opacity: 0.9;
 }
 
 
