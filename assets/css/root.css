@@ -27,11 +27,14 @@
     --shadow:#00000026;
     --box-shadow: #0000000A;
     --box-border: #00000008;
+    --bg-gray:#F9F9F9;
 
     
     
 }
-
+.color-orange{
+    color: var(--orange);
+}
 .color-black{
     color: var(--black);
 }
