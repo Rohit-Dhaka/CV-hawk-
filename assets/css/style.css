@@ -25,6 +25,9 @@
 .max-w-525{
     max-width: 525px;
 }
+.max-w-556{
+    max-width: 556px;
+}
 .max-w-565{
     max-width: 565px;
 }
@@ -42,6 +45,10 @@
 /* -----------------------padding-start */
 .py-80{
     padding: 80px 0;
+}
+.py-160{
+    padding: 160px 0;
+
 }
 .pt-11{
     padding-top: 11px;
@@ -66,6 +73,9 @@
 }
 .py-18{
     padding: 18px 0;
+}
+.pb-40{
+    padding-bottom: 40px;
 }
 .pb-160{
     padding-bottom: 160px;
